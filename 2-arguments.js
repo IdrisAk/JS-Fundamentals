@@ -1,6 +1,6 @@
 
 function argument ( ){
-    if (arguments[0] == undefined){
+    if (arguments[0] === undefined){
         console.log("No argument")
     }
     else if(arguments[1] === undifined){
@@ -11,4 +11,5 @@ function argument ( ){
         console.log("Arguments found")
     }
 }
+
 
