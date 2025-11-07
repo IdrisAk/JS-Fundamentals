@@ -11,4 +11,4 @@ function argument ( ){
         console.log("Arguments found")
     }
 }
- argument(2);
+ argument();
