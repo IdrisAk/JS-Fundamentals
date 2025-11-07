@@ -3,7 +3,7 @@ function argument ( ){
     if (arguments[0] === undefined){
         console.log("No argument")
     }
-    else if(arguments[1] === undefined){
+    else if(arguments.length === 1){
         console.log("Argument found")
     }
     else
