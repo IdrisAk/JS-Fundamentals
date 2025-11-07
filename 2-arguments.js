@@ -10,6 +10,6 @@ function argument ( ){
     {
         console.log("Arguments found")
     }
-}
-
+};
+argument();
 
