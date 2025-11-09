@@ -7,7 +7,7 @@ if (!isNaN(Number(args[0]))){
     let x = "";
     for (let i = 1; i <= args[0]; i++){
     
-      x += "x";
+      x += "X";
        }
      console.log(x);
   }}
