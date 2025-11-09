@@ -6,5 +6,5 @@ if (!isNaN(Number(args[0]))){
     console.log("C is fun");
   }}
 else{
-  console.log("Missing number of occurrences”);
+  console.log("Missing number of occurrences");
 }
