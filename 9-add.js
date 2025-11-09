@@ -1,6 +1,7 @@
-let result;
-function add(let num1 , let num2){
-  result = num1 + num2;
-  console.log(result);
+const args = process.argv.slice(2);
+const num1 = Number(args[0]);
+const num2 = Number(args[1]);
+function add(a, b) {
+  console.log(a + b); 
 }
-add();
+add(num1, num2);
