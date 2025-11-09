@@ -2,7 +2,7 @@ const { argv } = require('node:process');
 const args = process.argv.slice(2);
 
 if (!isNaN(Number(args[0]))){
-  for (let occurences = 0; occurences <= args[0]; occurences ++){
+  for (let occurences = 0; occurences <= args[0]; occurences++){
     console.log("C is fun");
   }}
 else{
