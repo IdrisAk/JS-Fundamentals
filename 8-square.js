@@ -8,8 +8,8 @@ if (!isNaN(Number(args[0]))){
     for (let i = 1; i <= args[0]; i++){
     
       x += "x";
-      console.log(x);
-  }
+       }
+     console.log(x);
   }}
 else{
   console.log("Missing size");
