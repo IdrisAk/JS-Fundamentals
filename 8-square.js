@@ -5,7 +5,9 @@ if (!isNaN(Number(args[0]))){
   for (let i = 1; i <= args[0]; i++){
     console.log("x");
     for (let i = 1; i <= args[0]; i++){
-    console.log("x");
+      let x = " ";
+      x += i
+      console.log(x);
   }
   }}
 else{
