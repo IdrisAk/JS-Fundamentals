@@ -10,7 +10,7 @@ if (!isNaN(Number(args[0]))){
       x += "x";
        }
      console.log(x);
-  }}
+  }
 else{
   console.log("Missing size");
 }
